@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BE2BF7E2-C5C8-43C5-839B-2B24B6DA1286}</ProjectGuid>
+    <ProjectGuid>{A463235E-BF1E-434C-BB88-F7D1258E28A6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Forge.Services</RootNamespace>
-    <AssemblyName>Forge.Services</AssemblyName>
+    <RootNamespace>Forge.Services.Build</RootNamespace>
+    <AssemblyName>Forge.Services.Build</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -45,18 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Configuration\IForgeConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Forge.Data\Forge.Data.csproj">
-      <Project>{36CC7D85-C0DF-4F08-A137-1D188D74C9AE}</Project>
-      <Name>Forge.Data</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Build\" />
-    <Folder Include="SourceControl\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
